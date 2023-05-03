@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ReactWebsite/static/css/main.612a82c2.css",
+    "main.js": "/ReactWebsite/static/js/main.06934e69.js",
+    "static/js/787.28cb0dcd.chunk.js": "/ReactWebsite/static/js/787.28cb0dcd.chunk.js",
+    "static/media/bg__intro.png": "/ReactWebsite/static/media/bg__intro.219f8ef7a9828812f4de.png",
+    "static/media/Video01.mp4": "/ReactWebsite/static/media/Video01.48febe5aa317d32de68d.mp4",
+    "static/media/poster.png": "/ReactWebsite/static/media/poster.af10ca91757b6890fdf5.png",
+    "static/media/OurProduct__1.png": "/ReactWebsite/static/media/OurProduct__1.f5a3efa8541ace1c149b.png",
+    "static/media/png__3.png": "/ReactWebsite/static/media/png__3.56df0a01673c1d8828ed.png",
+    "static/media/png__1.png": "/ReactWebsite/static/media/png__1.822a0239c9dcf821242f.png",
+    "static/media/png__2.png": "/ReactWebsite/static/media/png__2.fec734d65e8bcbf5ec74.png",
+    "index.html": "/ReactWebsite/index.html",
+    "main.612a82c2.css.map": "/ReactWebsite/static/css/main.612a82c2.css.map",
+    "main.06934e69.js.map": "/ReactWebsite/static/js/main.06934e69.js.map",
+    "787.28cb0dcd.chunk.js.map": "/ReactWebsite/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.612a82c2.css",
+    "static/js/main.06934e69.js"
+  ]
+}

@@ -1,0 +1,149 @@
+.container {
+  width: 100%;
+  /* height: 50vw; */
+  /* display: flex;
+  flex-direction: row;
+  justify-content: center; */
+
+  /* display: block; */
+
+  /* background-color: red; */
+}
+
+.upperContainer {
+  width: 84vw;
+
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: row;
+
+  /* background-color: aqua; */
+}
+
+.containerColumns {
+  width: 90vw;
+
+  padding-top: 5vw;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.containerColumnTwo {
+  padding-top: 15vw;
+}
+
+.containerColumnTree {
+  padding-top: 3vw;
+}
+/* SubTitle///////////////////////////////////////////////////// */
+
+.subtitle {
+  padding-top: 6vw;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5vw;
+
+  color: #424242;
+}
+
+/* Title///////////////////////////////////////////////////// */
+
+.title {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3vw;
+
+  color: #01996d;
+}
+
+/* Text///////////////////////////////////////////////////// */
+
+.text {
+  padding-top: 8vw;
+  padding-left: 7vw;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.3vw;
+  line-height: 150%;
+
+  color: #424242;
+}
+
+/* Photo///////////////////////////////////////////////////// */
+.photoTwo {
+  width: 25vw;
+  height: 35vw;
+
+  background: url("../assets/img/png__2.png") no-repeat;
+  background-size: cover;
+  border-radius: 10%;
+}
+
+.photoTree {
+  width: 25vw;
+  height: 35vw;
+
+  background: url("../assets/img/png__3.png") no-repeat;
+  background-size: cover;
+  border-radius: 10%;
+}
+
+/* Media//////////////////////////////////////////////////////// */
+
+/* 1086px///////////////////////////////////////////////////////// */
+
+@media (max-width:1086px) {
+  .subtitle {
+    font-size: 2.5vw;
+  }
+}
+
+@media (max-width: 1086px) {
+  .text {
+    font-size:1.1vw ;
+    font-weight: 700;
+  }
+}
+
+
+/* 760px///////////////////////////////////////////////////////// */
+
+@media (max-width: 760px) {
+  .subtitle {
+    font-size: 2.2vw;
+  }
+}
+
+@media (max-width: 760px) {
+  .text {
+    font-size:2.4vw ;
+  }
+}
+
+@media (max-width: 760px) {
+  .containerColumns {
+    width: 100%;
+    display: block;
+
+    /* background-color: red; */
+
+    
+  }
+}
+
+@media (max-width: 760px) {
+  .containerColumnTwo {
+    padding-top: 2vw;
+  }
+  
+}
+

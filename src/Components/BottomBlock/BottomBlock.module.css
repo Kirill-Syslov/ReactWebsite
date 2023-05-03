@@ -1,0 +1,36 @@
+.container {
+  width: 100%;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+
+  background-color: #245852;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 3vw;
+
+  padding-left: 5.5vw;
+
+  color: #fff;
+}
+
+.itemOne {
+  padding-left: 5.5vw;
+  padding-top: 4vw;
+}
+
+.itemTwo {
+  padding-left: 5.5vw;
+  padding-top: 4vw;
+}
+
+.itemTree {
+  padding-left: 5.5vw;
+  padding-top: 4vw;
+}
+
+.itemFour {
+  padding-left: 5.5vw;
+  padding-top: 4vw;
+}

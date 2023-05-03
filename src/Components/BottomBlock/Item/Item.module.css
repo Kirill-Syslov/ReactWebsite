@@ -1,0 +1,15 @@
+.item {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2vw;
+
+  text-decoration: none;
+  
+  color: #ffffff;
+  transition: .5s linear;
+}
+
+.item:hover {
+    color:#1beed6;
+} 

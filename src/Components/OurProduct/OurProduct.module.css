@@ -1,0 +1,250 @@
+/* Container/////////////////////////////////////////// */
+.container {
+  width: 100%;
+
+  margin-top: 10vw;
+  margin-bottom: 10vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.containerContent {
+  width: 40vw;
+
+  margin-left: 7vw;
+  /* background-color: aqua; */
+}
+
+.containerPhotoSmall {
+  width: 13vw;
+  height: 15vw;
+  margin-top: 30vw;
+  margin-left: -4vw;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0.1vw 0.1vw 1vw 0.1vw;
+}
+
+.containerPhoto {
+  width: 30vw;
+  background: rgba(1, 153, 109, 0.2);
+}
+
+/* Subtitle/////////////////////////////////////////// */
+.subtitle {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2vw;
+  line-height: 157%;
+
+  color: #424242;
+}
+/* Title/////////////////////////////////////////// */
+.title {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3vw;
+  line-height: 157%;
+
+  color: #01996d;
+}
+
+.titleOne {
+  padding-top: 1vw;
+  padding-bottom: 0.5vw;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.7vw;
+  line-height: 157%;
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.titleTwo {
+  text-align: center;
+
+  padding-top: 1vw;
+
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.7vw;
+  line-height: 157%;
+
+  color: #000000;
+}
+/* Text/////////////////////////////////////////// */
+.text {
+  padding-bottom: 3vw;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6vw;
+  line-height: 150%;
+
+  color: #484848;
+}
+
+.textOne {
+  padding-top: 1vw;
+  padding-bottom: 0.5vw;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.7vw;
+  line-height: 157%;
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.textTwo {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.7vw;
+  line-height: 157%;
+
+  padding-left: 3vw;
+  /* text-align: center; */
+
+  color: #000000;
+}
+/* Photo/////////////////////////////////////////// */
+.photo {
+  width: 30vw;
+  height: 40vw;
+
+  background: url("../assets/img/OurProduct__1.png") no-repeat;
+  background-size: cover;
+}
+
+.photoSmall {
+  width: 2vw;
+  height: 2vw;
+
+  background: url("../assets/img/OurProduct__2.png") no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+/* Line///////////////////////////////////////////////// */
+
+.line {
+  width: 4.6vw;
+  margin: 0 auto;
+  border: 0.1vw solid #000000;
+}
+
+/* Name/////////////////////////////////////////////////// */
+
+.name {
+  padding-top: 0.9vw;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.6vw;
+  line-height: 157%;
+
+  text-align: center;
+
+  color: #000000;
+}
+
+/* Circle/////////////////////////////////////////////////// */
+
+.circle {
+  width: 2vw;
+  height: 2vw;
+
+  border-radius: 50%;
+  /* margin: 0 auto; */
+  margin-top: 1vw;
+  margin-left: 5.3vw;
+
+  background: rgba(1, 153, 109, 0.2);
+}
+
+/* Media //////////////////////////////////////////////////*/
+
+/* 760px ////////////////////////////////////////////////////*/
+
+@media (max-width: 760px) {
+  .containerPhotoSmall {
+    width: 18vw;
+    height: 22vw;
+    margin-top: 20vw;
+    margin-left: -7vw;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0.1vw 0.1vw 1vw 0.1vw;
+  }
+}
+
+@media (max-width: 760px) {
+  .text {
+    font-size: 2.5vw;
+  }
+}
+
+@media (max-width: 760px) {
+  .titleOne {
+    font-size: 1.5vw;
+  }
+}
+
+@media (max-width: 760px) {
+  .photoSmall {
+    width: 4vw;
+    height: 4vw;
+    /*   
+    background: url("../assets/img/OurProduct__2.png") no-repeat;
+    background-size: cover;
+    border-radius: 50%; */
+  }
+}
+
+@media (max-width: 760px) {
+  .circle {
+    width: 4vw;
+    height: 3vw;
+
+    margin-top: 1vw;
+    margin-left: 7vw;
+  }
+}
+
+@media (max-width: 760px) {
+  .name {
+    font-size: 1.5vw;
+  }
+}
+
+@media (max-width: 760px) {
+  .titleTwo {
+    font-size: 1.2vw;
+  }
+}
+
+@media (max-width: 760px) {
+  .textOne {
+    font-size: 1.5vw;
+  }
+}
+
+@media (max-width: 760px) {
+  .textTwo {
+    font-size: 1.5vw;
+    padding-left: 2vw;
+  }
+}

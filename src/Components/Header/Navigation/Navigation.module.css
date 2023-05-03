@@ -1,0 +1,30 @@
+.nav {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4vw;
+
+  padding-left: 6vw;
+  text-decoration: none;
+
+  display: flex;
+  justify-content: center;
+
+
+  color: #292929;
+  transition: color 0.3s linear;
+}
+
+.nav:hover {
+  color: #01996d;
+}
+
+/* Media////////////////////////////////////////////////////////// */
+
+/* 760px ///////////////////////////////////////////////////////*/
+
+@media (max-width:760px) {
+  .nav {
+    display: none;
+  }
+}

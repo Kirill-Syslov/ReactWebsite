@@ -1,0 +1,41 @@
+.container {
+  width: 10vw;
+  height: 3vw;
+
+  display: flex;
+  justify-content: center;
+  background-color: #01996d;
+
+  border-radius: 50%;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 0.4vw;
+  font-size: 1.2vw;
+
+  transition: color 0.5s linear;
+
+  color: black;
+}
+
+.btn:hover {
+  color: #fff;
+}
+
+/* Media //////////////////////////////////////////////////*/
+
+/* 760px ////////////////////////////////////////////////////*/
+
+@media (max-width: 760px) {
+  .btn {
+    font-size: 2vw;
+  }
+}
+
+@media (max-width: 760px) {
+  .container {
+    width: 15vw;
+    height: 4vw;
+  }
+}
